@@ -1,0 +1,38 @@
+.kpis { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; }
+.kpi { padding: 14px; }
+.kpiHead { display: flex; justify-content: space-between; align-items: center; }
+.kpiIcon {
+  width: 32px;
+  height: 32px;
+  border-radius: 9px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.kpiTrend { font-size: 10px; font-weight: 700; letter-spacing: 0.04em; }
+.kpiLabel { margin-top: 10px; font-size: 11px; font-weight: 600; color: var(--fg-3); letter-spacing: 0.06em; }
+.kpiValue { font-size: 28px; font-weight: 700; letter-spacing: -0.02em; margin-top: 2px; line-height: 1.2; }
+
+.chart { margin-top: 14px; padding: 16px; }
+.chartHead { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; }
+.chartLabel { font-size: 12px; color: var(--fg-3); font-weight: 600; }
+.chartValueRow { display: flex; align-items: baseline; gap: 8px; margin-top: 4px; }
+.chartValue { font-size: 24px; font-weight: 700; letter-spacing: -0.02em; line-height: 1.2; }
+.chartDelta { font-size: 12px; color: var(--ok); font-weight: 600; }
+
+.bars { display: flex; align-items: stretch; gap: 6px; height: 70px; margin-top: 14px; }
+.barCol { flex: 1; display: flex; flex-direction: column; align-items: center; gap: 4px; }
+.barTrack { flex: 1; width: 100%; display: flex; align-items: flex-end; }
+.bar { width: 100%; border-radius: 4px; }
+.barLabel { font-size: 9px; color: var(--fg-3); font-weight: 600; line-height: 1; }
+
+.vehicles { display: flex; flex-direction: column; gap: 8px; margin-top: 10px; }
+.vehicle { padding: 12px; display: flex; align-items: center; gap: 12px; }
+.vehicleIcon { width: 36px; height: 36px; }
+.vehicleLine { display: flex; align-items: center; gap: 6px; min-width: 0; }
+.plate { font-weight: 700; font-size: 13px; }
+.dotSep { color: var(--fg-3); font-size: 12px; }
+.model { font-size: 13px; color: var(--fg-2); }
+.driver { font-size: 11px; color: var(--fg-3); margin-top: 2px; }
+
+.empty { padding: 20px; text-align: center; font-size: 13px; color: var(--fg-3); }

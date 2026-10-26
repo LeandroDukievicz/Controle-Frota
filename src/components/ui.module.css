@@ -1,0 +1,39 @@
+.dot {
+  display: inline-block;
+  flex-shrink: 0;
+  width: 8px;
+  height: 8px;
+  border-radius: 999px;
+}
+
+.stat {
+  background: var(--bg-2);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 10px 12px;
+  min-width: 0;
+}
+.statLabel { font-size: 11px; color: var(--fg-3); font-weight: 600; }
+.statValue { font-weight: 700; font-size: 15px; margin-top: 2px; white-space: nowrap; }
+
+.routeLine {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 12px;
+  font-weight: 500;
+  min-width: 0;
+}
+.routeBold { font-weight: 700; color: var(--warn); }
+
+.header {
+  padding: 8px 20px 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+.headerLeft { display: flex; align-items: center; gap: 12px; min-width: 0; }
+.headerRight { display: flex; gap: 8px; }
+.title { font-size: 20px; font-weight: 700; letter-spacing: -0.01em; line-height: 1.1; }
+.subtitle { font-size: 13px; color: var(--fg-3); margin-top: 2px; }
