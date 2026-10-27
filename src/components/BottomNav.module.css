@@ -1,0 +1,20 @@
+.nav {
+  position: relative;
+  z-index: 10;
+  flex-shrink: 0;
+  border-top: 1px solid var(--border);
+  background: var(--card);
+  padding-top: 8px;
+  padding-bottom: max(var(--safe-bottom), 18px);
+}
+.grid { display: grid; grid-template-columns: repeat(5, 1fr); }
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3px;
+  padding: 6px 0;
+  color: var(--fg-3);
+}
+.active { color: var(--primary); }
+.label { font-size: 10px; font-weight: 600; line-height: 1.2; }

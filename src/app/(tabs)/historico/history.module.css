@@ -1,0 +1,22 @@
+.filters {
+  padding: 0 20px 12px;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+.filters::-webkit-scrollbar { display: none; }
+
+.list { display: flex; flex-direction: column; gap: 10px; }
+.item { display: block; padding: 14px; text-align: left; }
+.itemHead { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+.driver { display: flex; align-items: center; gap: 10px; min-width: 0; }
+.avatar { width: 36px; height: 36px; font-size: 12px; }
+.driverName { font-size: 14px; font-weight: 700; }
+.vehicle { font-size: 11px; color: var(--fg-2); font-weight: 600; }
+
+.route { margin-top: 12px; display: flex; flex-direction: column; gap: 4px; }
+
+.meta { margin-top: 12px; display: flex; justify-content: space-between; align-items: center; color: var(--fg-2); }
+.when { font-size: 12px; display: inline-flex; align-items: center; gap: 4px; }
+.figures { font-size: 12px; display: flex; gap: 10px; font-weight: 600; }
+
+.empty { padding: 24px; text-align: center; font-size: 13px; color: var(--fg-3); }
